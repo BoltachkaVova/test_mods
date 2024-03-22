@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373dab28160e49268e9baf06172c5bc3, type: 3}
+  m_Name: ConfigDataGER
+  m_EditorClassIdentifier: 
+  id: 2
+  icon: {fileID: 21300000, guid: 13f5b954a8fbd864da698fcc8bbd4f56, type: 3}
+  settingsMods:
+  - icon: {fileID: 21300000, guid: b0fea0a4e2baadf46b1e5b598465ce36, type: 3}
+    name: "Auf W\xE4nden laufen"
+    description: "Die Schwerkraft ist eine hartn\xE4ckige Sache und erlaubt normalerweise
+      nur das Gehen auf horizontalen Fl\xE4chen. Wenn Sie versuchen, eine steile
+      Wand zu erklimmen, zieht sie Sie sofort nach unten. Es gibt jedoch Charaktere,
+      die W\xE4nde oder sogar Decken erklimmen k\xF6nnen. Manche nutzen daf\xFCr
+      technische Ger\xE4te \u2013 verschiedene Haken oder beispielsweise Saugn\xE4pfe,
+      wenn die Wand es zul\xE4sst, dass man sich daran festhalten oder daran festhalten
+      kann."
+    isLoaded: 0
+    isActive: 0
+  - icon: {fileID: 21300000, guid: bf29c6f967465ce438580d51d5d33db8, type: 3}
+    name: Flug
+    description: "Flug ist die Bewegung eines K\xF6rpers in einem gasf\xF6rmigen
+      Medium oder Vakuum, die sowohl unter dem Einfluss von Antrieb (z. B. Strahlschub)
+      als auch durch Tr\xE4gheit unter dem Einfluss eines auf den K\xF6rper ausge\xFCbten
+      Impulses erfolgt (zum Beispiel der Flug eines Pfeils, einer anderen Wurf- oder
+      Artilleriegranate). Die Kontrolle der Flugh\xF6he in einem Gravitationsfeld
+      bei Geschwindigkeiten unterhalb der Umlaufgeschwindigkeit erfordert neben der
+      Vermittlung einer Vorw\xE4rtsbewegung auch Folgendes: der Einsatz von Unterst\xFCtzungsmitteln
+      \u2013 statisch oder dynamisch;"
+    isLoaded: 0
+    isActive: 0
+  - icon: {fileID: 21300000, guid: 83e8856eab60a744682f4cfc8580aa9e, type: 3}
+    name: Gehen Sie auf Englisch
+    description: "\u201ELeaving\u201C hei\xDFt es auf Englisch, wenn jemand geht,
+      ohne sich zu verabschieden. Man k\xF6nnte meinen, dass sich der Ausdruck \xFCber
+      das unh\xF6fliche Verhalten der Briten lustig macht. Allerdings haben britische
+      Untertanen, wie kein anderer, Bem\xFChen Sie sich, die Regeln der Etikette
+      zu befolgen. Sie verabschieden sich lange und h\xF6flich von anderen, bevor
+      sie gehen, betrachten anderes Verhalten als Zeichen schlechten Geschmacks und
+      nennen es einen \xE4hnlichen Ausdruck \u2013 \u201Everlassen\u201C auf Franz\xF6sisch."
+    isLoaded: 0
+    isActive: 0
+  - icon: {fileID: 21300000, guid: b0fea0a4e2baadf46b1e5b598465ce36, type: 3}
+    name: Unsterblichkeit
+    description: "Flug ist die Bewegung eines K\xF6rpers in einem gasf\xF6rmigen
+      Medium oder Vakuum, die sowohl unter dem Einfluss von Antrieb (z. B. Strahlschub)
+      als auch durch Tr\xE4gheit unter dem Einfluss eines auf den K\xF6rper ausge\xFCbten
+      Impulses erfolgt (zum Beispiel der Flug eines Pfeils, einer anderen Wurf- oder
+      Artilleriegranate). Die Kontrolle der Flugh\xF6he in einem Gravitationsfeld
+      bei Geschwindigkeiten unterhalb der Umlaufgeschwindigkeit erfordert neben der
+      Vermittlung einer Vorw\xE4rtsbewegung auch Folgendes: der Einsatz von Unterst\xFCtzungsmitteln
+      \u2013 statisch oder dynamisch;"
+    isLoaded: 0
+    isActive: 0
+  mainDescription: Beschreibung Beschreibung Beschreibung Beschreibung Beschreibung
+    Beschreibung Beschreibung Beschreibung Beschreibung Beschreibung Beschreibung
+    Beschreibung Beschreibung Beschreibung
+  mainAllModButton: Modifikationen
+  mainInstructionButton: Anweisungen
+  mainPolicyButton: Datenschutzrichtlinie
+  policyHeader: Datenschutzrichtlinie
+  policyData: "Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen
+    Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf
+    nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht l\xFCgen Ich darf nicht
+    l\xFCgen "
+  allModsHeader: Modifikationen
+  selectMods: 
+  downlandHeader: 
+  downlandOpenModButton: "Mod \xF6ffnen"
+  downlandRateUsButton: Bewerten Sie uns
