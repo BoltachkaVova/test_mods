@@ -44,11 +44,16 @@ namespace UI.Windows
         [SerializeField] private RectTransform instruction;
         [SerializeField] private Vector2 fromInstruction;
         
-        [SerializeField] private RectTransform develop;
-        [SerializeField] private Vector2 fromDevelop;
+        [SerializeField] private RectTransform sound;
+        [SerializeField] private Vector2 fromSound;
+        
+        [SerializeField] private RectTransform lang;
+        [SerializeField] private Vector2 fromLang;
+       
 
         [SerializeField] private float duration;
-        [SerializeField] private CanvasGroup texts;
+        [SerializeField] private CanvasGroup textN;
+        [SerializeField] private CanvasGroup textD;
         [SerializeField] private CanvasGroup policy;
 
         public TypeWindow TypeWindow => typeWindow;
@@ -61,7 +66,8 @@ namespace UI.Windows
         private Vector2 _startPosIcon;
         private Vector2 _startPosMods;
         private Vector2 _startPosInstruction;
-        private Vector2 _startPosDevelop;
+        private Vector2 _startPosSound;
+        private Vector2 _startPosLang;
 
         private Sequence _sequence;
         private ISaveSystem _system;
@@ -100,10 +106,9 @@ namespace UI.Windows
             _sequence = DOTween.Sequence();
             gameObject.SetActive(true);
 
-            await _sequence.Append(icon.DOAnchorPos(_startPosIcon, duration)).Join(texts.DOFade(1, duration))
-                .Append(mods.DOAnchorPos(_startPosMods, duration))
-                .Join(instruction.DOAnchorPos(_startPosInstruction, duration)).Join(policy.DOFade(1, duration))
-                .Append(develop.DOAnchorPos(_startPosDevelop, duration)).SetEase(Ease.Linear);
+            await _sequence.Append(icon.DOAnchorPos(_startPosIcon, duration)).Join(textN.DOFade(1, duration)).Join(textD.DOFade(1, duration))
+                .Append(mods.DOAnchorPos(_startPosMods, duration)).Join(instruction.DOAnchorPos(_startPosInstruction, duration)).Join(policy.DOFade(1, duration))
+                .Append(sound.DOAnchorPos(_startPosSound, duration)).Join(lang.DOAnchorPos(_startPosLang, duration)).SetEase(Ease.Linear);
         }
         
         public UniTask Close()
@@ -160,9 +165,11 @@ namespace UI.Windows
             icon.anchoredPosition = fromIcon;
             mods.anchoredPosition = fromMods;
             instruction.anchoredPosition = fromInstruction;
-            develop.anchoredPosition = fromDevelop;
+            sound.anchoredPosition = fromSound;
+            lang.anchoredPosition = fromLang;
 
-            texts.alpha = 0;
+            textN.alpha = 0;
+            textD.alpha = 0;
             policy.alpha = 0;
         }
 
@@ -171,7 +178,8 @@ namespace UI.Windows
             _startPosIcon = icon.anchoredPosition;
             _startPosMods = mods.anchoredPosition;
             _startPosInstruction = instruction.anchoredPosition;
-            _startPosDevelop = develop.anchoredPosition;
+            _startPosSound = sound.anchoredPosition;
+            _startPosLang = lang.anchoredPosition;
             
             SetFromPosition();
             duration /= 6; // todo

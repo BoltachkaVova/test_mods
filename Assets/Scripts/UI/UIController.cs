@@ -14,6 +14,8 @@ namespace UI
         [SerializeField] private Sprite otherBg; // todo up
         
         [SerializeField] private AppController appController;
+        [SerializeField] private List<RectTransform> rectTransformWindows;
+        
         [Header("Windows")]
         [SerializeField] private MainWindow mainWindow;
         [SerializeField] private PolicyWindow policyWindow;
@@ -27,10 +29,11 @@ namespace UI
         private List<ILanguage> _languages = new List<ILanguage>(8);
         
         private SubscriptionSystem _subscriptionSystem;
-        
+
         private void Awake()
         {
             text.SetActive(true); // todo
+            SafeArea.SetSafeAreaPortrait(rectTransformWindows);
             
             appController.LoadedData += OnLoaded;
             allModsWindow.SelectModItem += OnSelectItem;
